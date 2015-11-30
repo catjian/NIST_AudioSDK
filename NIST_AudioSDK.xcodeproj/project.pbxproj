@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022A08561C0C23A600C28DB1 /* NIST_AudioSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 022A08551C0C23A600C28DB1 /* NIST_AudioSDK.h */; };
+		022A08581C0C23A600C28DB1 /* NIST_AudioSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 022A08571C0C23A600C28DB1 /* NIST_AudioSDK.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		022A08501C0C23A500C28DB1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				022A08561C0C23A600C28DB1 /* NIST_AudioSDK.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		022A08521C0C23A600C28DB1 /* libNIST_AudioSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNIST_AudioSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		022A08551C0C23A600C28DB1 /* NIST_AudioSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIST_AudioSDK.h; sourceTree = "<group>"; };
+		022A08571C0C23A600C28DB1 /* NIST_AudioSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIST_AudioSDK.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		022A084F1C0C23A500C28DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		022A08491C0C23A500C28DB1 = {
+			isa = PBXGroup;
+			children = (
+				022A08541C0C23A600C28DB1 /* NIST_AudioSDK */,
+				022A08531C0C23A600C28DB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		022A08531C0C23A600C28DB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				022A08521C0C23A600C28DB1 /* libNIST_AudioSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		022A08541C0C23A600C28DB1 /* NIST_AudioSDK */ = {
+			isa = PBXGroup;
+			children = (
+				022A08551C0C23A600C28DB1 /* NIST_AudioSDK.h */,
+				022A08571C0C23A600C28DB1 /* NIST_AudioSDK.m */,
+			);
+			path = NIST_AudioSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		022A08511C0C23A500C28DB1 /* NIST_AudioSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 022A085B1C0C23A600C28DB1 /* Build configuration list for PBXNativeTarget "NIST_AudioSDK" */;
+			buildPhases = (
+				022A084E1C0C23A500C28DB1 /* Sources */,
+				022A084F1C0C23A500C28DB1 /* Frameworks */,
+				022A08501C0C23A500C28DB1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NIST_AudioSDK;
+			productName = NIST_AudioSDK;
+			productReference = 022A08521C0C23A600C28DB1 /* libNIST_AudioSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		022A084A1C0C23A500C28DB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zhangjian;
+				TargetAttributes = {
+					022A08511C0C23A500C28DB1 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 022A084D1C0C23A500C28DB1 /* Build configuration list for PBXProject "NIST_AudioSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 022A08491C0C23A500C28DB1;
+			productRefGroup = 022A08531C0C23A600C28DB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				022A08511C0C23A500C28DB1 /* NIST_AudioSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		022A084E1C0C23A500C28DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022A08581C0C23A600C28DB1 /* NIST_AudioSDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		022A08591C0C23A600C28DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		022A085A1C0C23A600C28DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		022A085C1C0C23A600C28DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		022A085D1C0C23A600C28DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		022A084D1C0C23A500C28DB1 /* Build configuration list for PBXProject "NIST_AudioSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022A08591C0C23A600C28DB1 /* Debug */,
+				022A085A1C0C23A600C28DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		022A085B1C0C23A600C28DB1 /* Build configuration list for PBXNativeTarget "NIST_AudioSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022A085C1C0C23A600C28DB1 /* Debug */,
+				022A085D1C0C23A600C28DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 022A084A1C0C23A500C28DB1 /* Project object */;
+}
