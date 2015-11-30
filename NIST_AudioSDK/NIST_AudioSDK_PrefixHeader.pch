@@ -1,0 +1,40 @@
+//
+//  NIST_AudioSDK_PrefixHeader.pch
+//  NIST_AudioSDK
+//
+//  Created by zhangjian on 15/11/30.
+//  Copyright © 2015年 zhangjian. All rights reserved.
+//
+
+#ifndef NIST_AudioSDK_PrefixHeader_pch
+#define NIST_AudioSDK_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifndef is_IOS7
+#define is_IOS7 ([[UIDevice currentDevice].systemVersion intValue] >= 7?YES:NO)
+#endif
+
+#ifndef is_iPhone4
+#define is_iPhone4 (([[UIScreen mainScreen]bounds].size.height-480) == 0?YES:NO)
+#endif
+#ifndef is_iPhone5
+#define is_iPhone5 (([[UIScreen mainScreen]bounds].size.height-568) == 0?YES:NO)
+#endif
+#ifndef is_iPhone6
+#define is_iPhone6 (([[UIScreen mainScreen]bounds].size.height-667) == 0?YES:NO)
+#endif
+#ifndef is_iPhone6p
+#define is_iPhone6p (([[UIScreen mainScreen]bounds].size.height-667) > 0?YES:NO)
+#endif
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
+#include "global.h"
+#include "MobileShield_Protocol.h"
+#endif
+
+#endif /* NIST_AudioSDK_PrefixHeader_pch */
